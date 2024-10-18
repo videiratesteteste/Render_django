@@ -1,0 +1,33 @@
+pip install virtualenv
+virtualenv venv
+. 'C:\Users\pinto.leonardo\Documents\Django\Aula Alura 1\venv\Scripts\activate.ps1'
+pip install django
+pip install python-dotenv
+django-admin help
+django-admin startproject setup . # criar o projeto
+python manage.py runserver
+python manage.py collectstatic
+
+
+** site para criar gitignore
+https://www.toptal.com/developers/gitignore
+
+** Setando o GIT
+git init
+git add .
+git commit -m "projeto django alura"
+git remote add origin https://github.com/videiratesteteste/Teste-django.git
+git push origin master
+
+
+
+** dicas de portas e protocolo
+Porta	Atribuição
+80	HTTP
+433	HTTPS
+22	SSH
+53	DNS
+25	SMTP
+465	SMTPS
+20, 21	FTP
+67, 68	DHCP
